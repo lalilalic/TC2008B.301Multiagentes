@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------
+# .gitignore para proyectos de Unity
+# Evita subir las carpetas pesadas que Unity vuelve a generar sola
+# ---------------------------------------------------------------
+
+# Carpetas que Unity regenera (son las que pesan GB)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Archivos de proyecto de los editores de código (se regeneran)
+.vs/
+.vscode/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Metas de archivos de depuración
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Reportes de errores
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Archivos del sistema de Mac y Windows
+.DS_Store
+Thumbs.db
+
+# Videos grandes (súbelos a YouTube/Drive y pon el enlace en el README)
+*.mov
+*.mp4
